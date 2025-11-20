@@ -60,7 +60,7 @@ include 'connectToDb.php';
                 <td><?= $baris['pengarang'] ?></td>
                 <td><?= $baris['tahun_terbit'] ?></td>
                 <td><?= $baris['genre'] ?></td>
-                <td> <a href="ubah.php?id=<?= $baris['id']; ?>" onclick="return confirm('yakin mau ubah?');">EDIT</a> | <a href="delete.php?id=<?= $baris['id']; ?>" onclick="return confirm('yakin mau hapus?');">HAPUS</a></td>
+                <td> <a href="edit.php?id=<?= $baris['id']; ?>" onclick="return confirm('yakin mau ubah?');">EDIT</a> | <a href="delete.php?id=<?= $baris['id']; ?>" onclick="return confirm('yakin mau hapus?');">HAPUS</a></td>
             </tr>
         <?php endforeach; ?>
     </table>
