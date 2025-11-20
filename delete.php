@@ -15,7 +15,7 @@ if ($hasilHapus) {
 }else {
     echo "
     <script>
-        alert('Data berhasil dihapus.');
+        alert('Data gagal dihapus.');
         window.location='index.php';
     </script>;
     "; 
