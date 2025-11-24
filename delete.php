@@ -3,7 +3,7 @@ include 'connectToDb.php';
 
 $id = $_GET['id'];
 
-$hasilHapus = mysqli_query($db, "DELETE FROM siswa WHERE id='$id'");
+$hasilHapus = mysqli_query($db, "DELETE FROM tbl_perpustakaan WHERE id='$id'");
 
 if ($hasilHapus) {
     echo "
